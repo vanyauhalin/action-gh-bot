@@ -22,4 +22,4 @@ jobs:
       uses: ./
 
     - name: Test Git Configuration
-      run: action.test.sh
+      run: ./action.test.sh

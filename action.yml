@@ -8,4 +8,4 @@ runs:
   steps:
   - name: Setup GitHub Actions Bot
     shell: sh
-    run: action.sh
+    run: ./action.sh
