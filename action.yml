@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-action.json
+
+name: Setup GitHub Actions Bot
+description: Configure Git with GitHub Actions Bot's profile
+
+runs:
+  using: composite
+  steps:
+  - name: Setup GitHub Actions Bot
+    shell: sh
+    run: action.sh

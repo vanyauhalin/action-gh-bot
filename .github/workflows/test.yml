@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+
+name: Test
+
+on:
+  pull_request:
+    branches:
+    - main
+  push:
+    branches:
+    - main
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Setup GitHub Actions Bot
+      uses: .
+
+    - name: Test Git Configuration
+      run: action.test.sh
