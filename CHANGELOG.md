@@ -8,7 +8,7 @@ This document records all notable changes to the project, following the [Keep a 
 
 ### Fixed
 
-- Fixed the `Please tell me who you are` error by adding the `--global` flag to the `git config` commands ([0707f24]).
+- Fixed the `Please tell me who you are` error by adding the `--global` flag to the `git config` commands ([0707f24], [703d5ea]).
 
 ## [0.0.2] - 2025-01-06
 
@@ -27,6 +27,7 @@ This is the first, initial release. The version 0.0.1 was chosen to test the pub
 [0.0.2]: https://github.com/vanyauhalin/action-gh-bot/releases/tag/v0.0.2/
 [0.0.1]: https://github.com/vanyauhalin/action-gh-bot/releases/tag/v0.0.1/
 
+[703d5ea]: https://github.com/vanyauhalin/action-gh-bot/commit/703d5eaeb0bb3e0267e48760fc97d302b8499fb8/
 [0707f24]: https://github.com/vanyauhalin/action-gh-bot/commit/0707f2459440076aa2fcf70e68267522538683f3/
 [5dd56f32...6eb607f]: https://github.com/vanyauhalin/action-gh-bot/compare/5dd56f326f7da3966dc295d81e6949536b755c55...6eb607fd9cbd05a67016095a273b7f50c24573ca/
 
