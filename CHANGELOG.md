@@ -14,7 +14,7 @@ This document records all notable changes to the project, following the [Keep a 
 
 ### Fixed
 
-- Fixed the `./action.sh: not found` error by inlining the script in the `run` command ([5dd56f32...6eb607f]).
+- Fixed the `./action.sh: not found` error by inlining the script in the `run` command ([6dab634]).
 
 ## [0.0.1] - 2025-01-06
 
@@ -29,7 +29,7 @@ This is the first, initial release. The version 0.0.1 was chosen to test the pub
 
 [703d5ea]: https://github.com/vanyauhalin/action-gh-bot/commit/703d5eaeb0bb3e0267e48760fc97d302b8499fb8/
 [0707f24]: https://github.com/vanyauhalin/action-gh-bot/commit/0707f2459440076aa2fcf70e68267522538683f3/
-[5dd56f32...6eb607f]: https://github.com/vanyauhalin/action-gh-bot/compare/5dd56f326f7da3966dc295d81e6949536b755c55...6eb607fd9cbd05a67016095a273b7f50c24573ca/
+[6dab634]: https://github.com/vanyauhalin/action-gh-bot/commit/6dab634110af2a290dd9e5649ce74aa3f8a13b39/
 
 [Keep a Changelog]: https://keepachangelog.com/en/1.1.0/
 [Semantic Versioning]: https://semver.org/spec/v2.0.0.html
