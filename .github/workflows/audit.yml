@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
 
-name: Test
+name: Audit
 
 on:
   pull_request:
@@ -9,14 +9,19 @@ on:
   push:
     branches:
     - main
-  workflow_dispatch:
 
 jobs:
-  test:
+  audit:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v4
+
+    - name: Setup mise
+      uses: jdx/mise-action@v2
+
+    - name: Lint Scripts
+      run: make lint
 
     - name: Setup GitHub Actions Bot
       uses: ./
