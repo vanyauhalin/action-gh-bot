@@ -37,8 +37,8 @@ fetch() {
 configure() {
 	lo=$(echo "$1" | jq --raw-output ".login")
 	id=$(echo "$1" | jq --raw-output ".id")
-	git config user.name "$lo"
-	git config user.email "$id+$lo@users.noreply.github.com"
+	git config set --global user.name "$lo"
+	git config set --global user.email "$id+$lo@users.noreply.github.com"
 }
 
 log() {

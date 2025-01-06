@@ -4,6 +4,12 @@ This document records all notable changes to the project, following the [Keep a 
 
 ## [Unreleased]
 
+## [0.0.3] - 2025-01-06
+
+### Fixed
+
+- Fixed the `Please tell me who you are` error by adding the `--global` flag to the `git config` commands.
+
 ## [0.0.2] - 2025-01-06
 
 ### Fixed
@@ -16,7 +22,8 @@ This is the first, initial release. The version 0.0.1 was chosen to test the pub
 
 <!-- Footnotes -->
 
-[Unreleased]: https://github.com/vanyauhalin/action-gh-bot/compare/v0.0.2...HEAD/
+[Unreleased]: https://github.com/vanyauhalin/action-gh-bot/compare/v0.0.3...HEAD/
+[0.0.3]: https://github.com/vanyauhalin/action-gh-bot/releases/tag/v0.0.3/
 [0.0.2]: https://github.com/vanyauhalin/action-gh-bot/releases/tag/v0.0.2/
 [0.0.1]: https://github.com/vanyauhalin/action-gh-bot/releases/tag/v0.0.1/
 

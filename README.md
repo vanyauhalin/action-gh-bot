@@ -10,8 +10,8 @@ This GitHub Action configure Git with [GitHub Actions Bot]'s profile by adding a
 Under the hood, this action sets up the following Git configuration:
 
 ```sh
-$ git config user.name "github-actions[bot]"
-$ git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+$ git config set --global user.name "github-actions[bot]"
+$ git config set --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 ```
 
 That is all.

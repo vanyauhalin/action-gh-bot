@@ -5,7 +5,7 @@ set -ue
 main() {
 	e="github-actions[bot]"
 
-	a=$(git config get user.name)
+	a=$(git config get --global user.name)
 	if [ "$a" != "$e" ]; then
 		echo "Expected user.name to be '$e', but got '$a'."
 		return 1
@@ -13,7 +13,7 @@ main() {
 
 	e="41898282+$e@users.noreply.github.com"
 
-	a=$(git config get user.email)
+	a=$(git config get --global user.email)
 	if [ "$a" != "$e" ]; then
 		echo "Expected user.email to be '$e', but got '$a'."
 		return 1
